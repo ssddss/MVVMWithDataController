@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F37CCEC5D81F98885B28AA0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 323450380057AA944C55E9AD /* libPods.a */; };
+		E537DFBD1C5712820087BA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFBC1C5712820087BA8D /* main.m */; };
+		E537DFC01C5712820087BA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFBF1C5712820087BA8D /* AppDelegate.m */; };
+		E537DFC61C5712820087BA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537DFC41C5712820087BA8D /* Main.storyboard */; };
+		E537DFC81C5712820087BA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E537DFC71C5712820087BA8D /* Assets.xcassets */; };
+		E537DFCB1C5712820087BA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537DFC91C5712820087BA8D /* LaunchScreen.storyboard */; };
+		E537DFFA1C57233B0087BA8D /* SDHomeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFEB1C57233B0087BA8D /* SDHomeDataController.m */; };
+		E537DFFB1C57233B0087BA8D /* SDSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFEE1C57233B0087BA8D /* SDSubject.m */; };
+		E537DFFC1C57233B0087BA8D /* SDBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFF11C57233B0087BA8D /* SDBannerView.m */; };
+		E537DFFD1C57233B0087BA8D /* SDPersonalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFF31C57233B0087BA8D /* SDPersonalInfoView.m */; };
+		E537DFFE1C57233B0087BA8D /* SDSubjectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFF51C57233B0087BA8D /* SDSubjectsView.m */; };
+		E537DFFF1C57233B0087BA8D /* SDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537DFF81C57233B0087BA8D /* SDHomeViewController.m */; };
+		E537E0021C57234D0087BA8D /* BaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E0011C57234D0087BA8D /* BaseDataController.m */; };
+		E537E0061C5723B30087BA8D /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E0051C5723B30087BA8D /* BaseViewModel.m */; };
+		E537E00A1C5723E50087BA8D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E0091C5723E50087BA8D /* BaseModel.m */; };
+		E537E00D1C5724B70087BA8D /* SDSubjectDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E00C1C5724B70087BA8D /* SDSubjectDataController.m */; };
+		E537E0111C57473D0087BA8D /* SDHomeSubjectsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E0101C57473D0087BA8D /* SDHomeSubjectsViewModel.m */; };
+		E537E0141C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E0131C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323450380057AA944C55E9AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A01362FB8E9C2C3AC5C6B19 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8CC7A7F156172EEB773F148B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E537DFB81C5712820087BA8D /* MVVMWithDataController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMWithDataController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E537DFBC1C5712820087BA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E537DFBE1C5712820087BA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E537DFBF1C5712820087BA8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E537DFC51C5712820087BA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E537DFC71C5712820087BA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E537DFCA1C5712820087BA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E537DFCC1C5712820087BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E537DFEA1C57233B0087BA8D /* SDHomeDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeDataController.h; sourceTree = "<group>"; };
+		E537DFEB1C57233B0087BA8D /* SDHomeDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeDataController.m; sourceTree = "<group>"; };
+		E537DFED1C57233B0087BA8D /* SDSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSubject.h; sourceTree = "<group>"; };
+		E537DFEE1C57233B0087BA8D /* SDSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSubject.m; sourceTree = "<group>"; };
+		E537DFF01C57233B0087BA8D /* SDBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBannerView.h; sourceTree = "<group>"; };
+		E537DFF11C57233B0087BA8D /* SDBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBannerView.m; sourceTree = "<group>"; };
+		E537DFF21C57233B0087BA8D /* SDPersonalInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPersonalInfoView.h; sourceTree = "<group>"; };
+		E537DFF31C57233B0087BA8D /* SDPersonalInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPersonalInfoView.m; sourceTree = "<group>"; };
+		E537DFF41C57233B0087BA8D /* SDSubjectsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSubjectsView.h; sourceTree = "<group>"; };
+		E537DFF51C57233B0087BA8D /* SDSubjectsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSubjectsView.m; sourceTree = "<group>"; };
+		E537DFF71C57233B0087BA8D /* SDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeViewController.h; sourceTree = "<group>"; };
+		E537DFF81C57233B0087BA8D /* SDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeViewController.m; sourceTree = "<group>"; };
+		E537E0001C57234D0087BA8D /* BaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataController.h; sourceTree = "<group>"; };
+		E537E0011C57234D0087BA8D /* BaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataController.m; sourceTree = "<group>"; };
+		E537E0041C5723B30087BA8D /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		E537E0051C5723B30087BA8D /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		E537E0081C5723E50087BA8D /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		E537E0091C5723E50087BA8D /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		E537E00B1C5724B70087BA8D /* SDSubjectDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSubjectDataController.h; sourceTree = "<group>"; };
+		E537E00C1C5724B70087BA8D /* SDSubjectDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSubjectDataController.m; sourceTree = "<group>"; };
+		E537E00F1C57473D0087BA8D /* SDHomeSubjectsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeSubjectsViewModel.h; sourceTree = "<group>"; };
+		E537E0101C57473D0087BA8D /* SDHomeSubjectsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeSubjectsViewModel.m; sourceTree = "<group>"; };
+		E537E0121C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeSubjectsCollectionCellViewModel.h; sourceTree = "<group>"; };
+		E537E0131C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeSubjectsCollectionCellViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E537DFB51C5712820087BA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F37CCEC5D81F98885B28AA0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B21F33152EB23E247A4DF6DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CC7A7F156172EEB773F148B /* Pods.debug.xcconfig */,
+				5A01362FB8E9C2C3AC5C6B19 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E44E4262DC2785E99999F98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323450380057AA944C55E9AD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E537DFAF1C5712820087BA8D = {
+			isa = PBXGroup;
+			children = (
+				E537DFBA1C5712820087BA8D /* MVVMWithDataController */,
+				E537DFB91C5712820087BA8D /* Products */,
+				B21F33152EB23E247A4DF6DC /* Pods */,
+				E44E4262DC2785E99999F98C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E537DFB91C5712820087BA8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFB81C5712820087BA8D /* MVVMWithDataController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E537DFBA1C5712820087BA8D /* MVVMWithDataController */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFE61C57233B0087BA8D /* Base */,
+				E537DFE81C57233B0087BA8D /* Home */,
+				E537DFBE1C5712820087BA8D /* AppDelegate.h */,
+				E537DFBF1C5712820087BA8D /* AppDelegate.m */,
+				E537DFC41C5712820087BA8D /* Main.storyboard */,
+				E537DFC71C5712820087BA8D /* Assets.xcassets */,
+				E537DFC91C5712820087BA8D /* LaunchScreen.storyboard */,
+				E537DFCC1C5712820087BA8D /* Info.plist */,
+				E537DFBB1C5712820087BA8D /* Supporting Files */,
+			);
+			path = MVVMWithDataController;
+			sourceTree = "<group>";
+		};
+		E537DFBB1C5712820087BA8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFBC1C5712820087BA8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E537DFE61C57233B0087BA8D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E537E0071C5723D90087BA8D /* Model */,
+				E537E0031C5723A30087BA8D /* ViewModel */,
+				E537DFE71C57233B0087BA8D /* DataController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E537DFE71C57233B0087BA8D /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				E537E0001C57234D0087BA8D /* BaseDataController.h */,
+				E537E0011C57234D0087BA8D /* BaseDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		E537DFE81C57233B0087BA8D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFE91C57233B0087BA8D /* DataController */,
+				E537DFEC1C57233B0087BA8D /* Model */,
+				E537DFEF1C57233B0087BA8D /* View */,
+				E537DFF61C57233B0087BA8D /* ViewController */,
+				E537DFF91C57233B0087BA8D /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E537DFE91C57233B0087BA8D /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFEA1C57233B0087BA8D /* SDHomeDataController.h */,
+				E537DFEB1C57233B0087BA8D /* SDHomeDataController.m */,
+				E537E00B1C5724B70087BA8D /* SDSubjectDataController.h */,
+				E537E00C1C5724B70087BA8D /* SDSubjectDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		E537DFEC1C57233B0087BA8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFED1C57233B0087BA8D /* SDSubject.h */,
+				E537DFEE1C57233B0087BA8D /* SDSubject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E537DFEF1C57233B0087BA8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFF01C57233B0087BA8D /* SDBannerView.h */,
+				E537DFF11C57233B0087BA8D /* SDBannerView.m */,
+				E537DFF21C57233B0087BA8D /* SDPersonalInfoView.h */,
+				E537DFF31C57233B0087BA8D /* SDPersonalInfoView.m */,
+				E537DFF41C57233B0087BA8D /* SDSubjectsView.h */,
+				E537DFF51C57233B0087BA8D /* SDSubjectsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E537DFF61C57233B0087BA8D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E537DFF71C57233B0087BA8D /* SDHomeViewController.h */,
+				E537DFF81C57233B0087BA8D /* SDHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E537DFF91C57233B0087BA8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E537E00F1C57473D0087BA8D /* SDHomeSubjectsViewModel.h */,
+				E537E0101C57473D0087BA8D /* SDHomeSubjectsViewModel.m */,
+				E537E0121C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.h */,
+				E537E0131C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E537E0031C5723A30087BA8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E537E0041C5723B30087BA8D /* BaseViewModel.h */,
+				E537E0051C5723B30087BA8D /* BaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E537E0071C5723D90087BA8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E537E0081C5723E50087BA8D /* BaseModel.h */,
+				E537E0091C5723E50087BA8D /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E537DFB71C5712820087BA8D /* MVVMWithDataController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E537DFCF1C5712820087BA8D /* Build configuration list for PBXNativeTarget "MVVMWithDataController" */;
+			buildPhases = (
+				C5A90BB03674414E85425C01 /* Check Pods Manifest.lock */,
+				E537DFB41C5712820087BA8D /* Sources */,
+				E537DFB51C5712820087BA8D /* Frameworks */,
+				E537DFB61C5712820087BA8D /* Resources */,
+				F04B58D1ED50076996106832 /* Embed Pods Frameworks */,
+				3B789FD39FF031824644512D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMWithDataController;
+			productName = MVVMWithDataController;
+			productReference = E537DFB81C5712820087BA8D /* MVVMWithDataController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E537DFB01C5712820087BA8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yurongde;
+				TargetAttributes = {
+					E537DFB71C5712820087BA8D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E537DFB31C5712820087BA8D /* Build configuration list for PBXProject "MVVMWithDataController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E537DFAF1C5712820087BA8D;
+			productRefGroup = E537DFB91C5712820087BA8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E537DFB71C5712820087BA8D /* MVVMWithDataController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E537DFB61C5712820087BA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E537DFCB1C5712820087BA8D /* LaunchScreen.storyboard in Resources */,
+				E537DFC81C5712820087BA8D /* Assets.xcassets in Resources */,
+				E537DFC61C5712820087BA8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B789FD39FF031824644512D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A90BB03674414E85425C01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F04B58D1ED50076996106832 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E537DFB41C5712820087BA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E537DFFF1C57233B0087BA8D /* SDHomeViewController.m in Sources */,
+				E537DFFC1C57233B0087BA8D /* SDBannerView.m in Sources */,
+				E537DFC01C5712820087BA8D /* AppDelegate.m in Sources */,
+				E537E0141C5747660087BA8D /* SDHomeSubjectsCollectionCellViewModel.m in Sources */,
+				E537E00A1C5723E50087BA8D /* BaseModel.m in Sources */,
+				E537DFFB1C57233B0087BA8D /* SDSubject.m in Sources */,
+				E537DFFD1C57233B0087BA8D /* SDPersonalInfoView.m in Sources */,
+				E537E0111C57473D0087BA8D /* SDHomeSubjectsViewModel.m in Sources */,
+				E537DFFE1C57233B0087BA8D /* SDSubjectsView.m in Sources */,
+				E537DFBD1C5712820087BA8D /* main.m in Sources */,
+				E537DFFA1C57233B0087BA8D /* SDHomeDataController.m in Sources */,
+				E537E00D1C5724B70087BA8D /* SDSubjectDataController.m in Sources */,
+				E537E0021C57234D0087BA8D /* BaseDataController.m in Sources */,
+				E537E0061C5723B30087BA8D /* BaseViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E537DFC41C5712820087BA8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E537DFC51C5712820087BA8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E537DFC91C5712820087BA8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E537DFCA1C5712820087BA8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E537DFCD1C5712820087BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E537DFCE1C5712820087BA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E537DFD01C5712820087BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC7A7F156172EEB773F148B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVVMWithDataController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.MVVMWithDataController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/**";
+			};
+			name = Debug;
+		};
+		E537DFD11C5712820087BA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A01362FB8E9C2C3AC5C6B19 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVVMWithDataController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.MVVMWithDataController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E537DFB31C5712820087BA8D /* Build configuration list for PBXProject "MVVMWithDataController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E537DFCD1C5712820087BA8D /* Debug */,
+				E537DFCE1C5712820087BA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E537DFCF1C5712820087BA8D /* Build configuration list for PBXNativeTarget "MVVMWithDataController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E537DFD01C5712820087BA8D /* Debug */,
+				E537DFD11C5712820087BA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E537DFB01C5712820087BA8D /* Project object */;
+}
